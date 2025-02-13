@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
+    <title>to-do-list</title>
+</head>
+<body>
+
+    <div class="container">
+        <div class="top-wrapper">
+            <h2>To Do List </h2>
+            <div class="pokemon-wrapper">
+                <img src="" class="pokemon-image" alt="image here" id="pokemon-image"></img>
+                <button class="change-sprite" id="change-sprite" onclick="changePokemon()">Change Pokemon</button>
+            </div>
+        </div>
+        
+        <div class="input-container">
+            <input type="text" id="input-box" class="inputbox" placeholder="Please enter item"></input>
+            <button id="add" class="addbutton" onclick="addItem()">Add Item</button>
+        </div>
+        <div class="list-wrapper">
+            <ul id="item-list"></ul>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
