@@ -1,0 +1,127 @@
+* {
+    font-family: 'Roboto';
+}
+
+body {
+    display: flex;
+    justify-content : center;
+}
+
+.container {
+    display:block;
+    width: 426px;
+    height: 662px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    border: 2px solid #222224;
+    background: #F0F0F0;
+    border-top: none;
+}
+
+
+.top-wrapper { 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+
+    width: 422px;
+    height: 252.565px;
+    flex-shrink: 0;
+    border-radius: 10px 10px 0px 0px;
+    border-top: 2px solid #222224;
+    border-right: 2px solid #222224;
+    border-left: 2px solid #222224;
+    background: #EE1515;
+}
+
+h2 {
+    color: #F0F0F0;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+
+.pokemon-wrapper{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.pokemon-image{
+    height: 160px;
+}
+
+.change-sprite { /* button */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 24px;
+    gap: 8px;
+    border-radius: 100px;
+    border: 0;
+    height: 56.6px;
+    width: 170px;
+    color: white;
+    background-color: #222224;
+}
+
+.change-sprite:hover{
+    background-color: #09090a;
+}
+
+
+.input-container {
+    display: flex;
+}
+
+.inputbox {
+    width: 283px;
+    height: 48px;
+    flex-shrink: 0;
+    margin: 12px 14px 12px 9px;
+    padding-left: 14px;
+    text-align: left;
+    border: 0;
+}
+
+
+.addbutton {
+    display: flex;
+    padding: 10px 24px;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    align-self: stretch;
+    width: 90px;
+    height: 56px;
+    border: 0;
+    border-radius: 100px;
+    margin: 10px 7px 8px 0;
+    color: white;
+    background-color: #222224;
+}
+
+
+
+
+
+
+
+
+.list-wrapper {
+    background-color: green;
+    margin: 0;
+    padding: 0;
+}
+
+li{
+    width: 426px;
+    height: 42px;
+    flex-shrink: 0;
+}
