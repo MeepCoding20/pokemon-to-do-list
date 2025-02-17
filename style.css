@@ -15,7 +15,8 @@ body {
     border-radius: 10px;
     border: 2px solid #222224;
     background: #F0F0F0;
-    border-top: none;
+    overflow: hidden;
+
 }
 
 
@@ -24,16 +25,13 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-
-
-    width: 422px;
-    height: 252.565px;
+    width: 426px;
+    height: 252.57px;
     flex-shrink: 0;
     border-radius: 10px 10px 0px 0px;
-    border-top: 2px solid #222224;
-    border-right: 2px solid #222224;
-    border-left: 2px solid #222224;
     background: #EE1515;
+    overflow: hidden;
+    z-index: 1;
 }
 
 h2 {
@@ -78,6 +76,7 @@ h2 {
 
 .input-container {
     display: flex;
+    border-bottom: 1px solid #22222450;
 }
 
 .inputbox {
@@ -115,13 +114,44 @@ h2 {
 
 
 .list-wrapper {
-    background-color: green;
+    position: relative;
+    padding: 0;
+    margin: 0;
+}
+
+ul {
     margin: 0;
     padding: 0;
 }
 
 li{
-    width: 426px;
-    height: 42px;
+    align-items: center;
+    display:flex;
+    border-bottom: 1px solid #22222450;
+    padding: 14px 24px;
     flex-shrink: 0;
+    list-style: none;
+    text-align: left;
+    margin: 0;
+    position: relative;
+    
+
+}
+
+li button {
+    background-color:#222224;
+    color: white;
+    top: 8px;
+    bottom: 8px;
+    border-radius: 28px;
+    padding: 10px 24px;
+    margin-left: auto;
+    margin-right: -7px;
+    height: 34px;
+    width: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 0;
+    align-self: stretch;
 }
